@@ -1,0 +1,98 @@
+body,
+html {
+    height: 100%;
+    font-family: Poppins-Regular, sans-serif;
+}
+
+.error {
+    border: 2px solid red;
+}
+
+body {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+}
+
+.bg {
+    position: relative;
+    background-image: url(bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+
+.wrapper {
+    position: absolute;
+    left: 24%;
+    top: 3%;
+    width: 50%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    width: 20rem;
+    border: 1px solid gray;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: rgba(256, 256, 256, 0.5);
+    color: white;
+}
+
+.Registration {
+    display: block;
+    font-family: Poppins-Bold;
+    font-size: 35px;
+    color: #333;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.name {
+    font-size: 19px;
+    color: #444343;
+    margin: 20px;
+}
+
+.name1 {
+    border-radius: 6px;
+    border: 0px solid;
+    font-size: 15px;
+    height: 27px;
+    margin-left: 20px;
+    width: 80%;
+    /* color */
+    padding-left: 5px;
+}
+
+#submit {
+    margin-left: 4em;
+    width: 46%;
+    border-radius: 24px;
+    border: 0px solid white;
+    height: 32px;
+    font-size: 16px;
+    color: white;
+    background-image: linear-gradient(to right, rgb(247, 113, 187), blue);
+}
